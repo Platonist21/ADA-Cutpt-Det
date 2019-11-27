@@ -1,7 +1,7 @@
 # ADA-Cutpt-Det
-Olsson Rootzen algorithm for cut point calculation
+Olsson Rootzen algorithm for ADA cut point determination
 
-Two R functions related to the Olsson Rootzen algorithm are included.
+Two R functions related to the Olsson Rootzen algorithm are included in OlssonRootzen.RData
 The main function is JOHR.ADA(). The main input is a dataframe with a variable "sample" for sample ID, and a variable "obs" for data.
 The second function qF() is to calculate quantile estimate by simple linear interpolation.
 load("OlssonRootzen.RData") would load these two functions.
